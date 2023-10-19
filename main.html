@@ -35,7 +35,7 @@
 			height:500px;
 			margin-left: 50px;
 			margin-right: 50px;
-			height:560px
+			height:570px
 		}
 		div>video{
 			width:520px;
@@ -52,15 +52,15 @@
 		a{
 			text-decoration-line:none;
 		}
-		..player_one{
+		.player_one{
 			background-color: rgb(255, 255, 255);
-			padding: 1px;
-			border-radius: 1px;
+			padding: 10px;
+			border-radius: 5px;
 		}
-		..player_two{
+		.player_two{
 			background-color: rgb(255, 255, 255);
-			padding: 1px;
-			border-radius: 1px;
+			padding: 10px;
+			border-radius: 5px;
 		}
 	</style>
 
@@ -77,12 +77,14 @@
 	<a target="_blank"></a>
 	<h2>Now Playing...</h2>
 	<div>
-		<video class=".player_one" controls>
+		<video class="player_one" controls>
 			<source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
 		</video>
 		<h2>MP3 songs</h2>
 		<h4>Maan Meri Jaan</h4>
-		<audio class="player_two" src="https://www.pagalworld.com.se/files/download/id/64630" controls></audio>
+		<audio class="player_two" controls>
+			<source src="https://www.pagalworld.com.se/files/download/id/64630">
+		</audio>
 	</div>
     <script type="text/javascript" src="./script.js">
 </script>
